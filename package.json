@@ -1,0 +1,32 @@
+{
+  "name": "fp-ts-playground",
+  "version": "1.0.0",
+  "description": "Repository for learning fp-ts library",
+  "main": "index.js",
+  "repository": "git@github.com:stepanzin/fp-ts-playground.git",
+  "author": "Stepan Zinchenko <asworlddivide@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "fp",
+    "ts",
+    "fp-ts",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.5",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "ts-node": "^8.10.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "fp-ts": "^2.6.2"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "preset": "ts-jest"
+  }
+}
